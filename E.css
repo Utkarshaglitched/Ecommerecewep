@@ -1,0 +1,865 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.main {
+    padding-top: 10px;
+    padding-bottom: 7px;
+    padding-left: 3px;
+    background-color: rgb(0, 200, 255);
+    height: 10vh;
+    border: 2px solid black;
+}
+
+.logo img {
+    width: 5vw;
+    display: inline-block;
+}
+
+.login {
+    display: inline-block;
+    position: relative;
+    left: 28vw;
+    bottom: 12vh;
+}
+
+.login img {
+    width: 40px;
+    display: inline-block;
+}
+
+.cart {
+    display: inline-block;
+    position: relative;
+    left: 32vw;
+    bottom: 12vh;
+}
+
+.cart img {
+    width: 40px;
+    display: inline-block;
+}
+
+.log {
+    display: inline-block;
+    position: relative;
+    left: 21.2vw;
+    bottom: 8.5vh;
+    font-size: x-large;
+}
+
+.cartname {
+    display: inline-block;
+    position: relative;
+    left: 24.7vw;
+    bottom: 8.5vh;
+    font-size: x-large;
+}
+
+.search {
+    position: relative;
+    left: 19vw;
+    border: solid 2px black;
+    display: inline-block;
+    width: 57vw;
+    bottom: 5vw;
+    height: 9vh;
+}
+
+.search input {
+    box-sizing: border-box;
+    width: 57vw;
+    height: 9vh;
+    font-size: 30px;
+    background-image: url("https://images.icon-icons.com/2551/PNG/512/search_icon_152764.png");
+    background-repeat: no-repeat;
+    background-size: 23px;
+}
+
+.search input::placeholder {
+    font-size: 20px;
+    color: brown;
+}
+
+.maintwo {
+    margin-top: 3vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    background-color: aqua;
+    border: black solid 3px;
+}
+
+.heading ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22vw;
+    list-style: none;
+}
+
+.heading ul li {
+    border-radius: 40%;
+    background-color: gray;
+}
+
+.offers,
+.phone,
+.electrical {
+    display: inline-block;
+}
+
+.offers img {
+    width: 100px;
+    position: relative;
+    left: 13.5vw;
+    bottom: 1vh;
+}
+
+.phone img {
+    width: 100px;
+    position: relative;
+    left: 34vw;
+    bottom: 1vh
+}
+
+.electrical img {
+    width: 100px;
+    position: relative;
+    left: 57vw;
+    bottom: 1vh
+}
+
+.mainthree {
+
+    background-color: rgb(231, 222, 241);
+    height: 200px;
+    width: 30vw;
+    display: flex;
+    margin-left: 33vw;
+    margin-top: 10px;
+    border: solid black 2px;
+    border-radius: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.action {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action img {
+    width: 200px;
+    opacity: 0;
+    position: absolute;
+    /* left: 33vw; */
+    animation: moving 15s linear infinite;
+
+}
+
+@keyframes moving {
+    0% {
+        opacity: 0;
+        /* left:33vw; */
+    }
+
+    20% {
+        opacity: 0;
+        /* left:35vw; */
+    }
+
+    30% {
+        opacity: 0;
+        /* left:37vw; */
+    }
+
+    50% {
+        opacity: 1;
+        /* left:48vw; */
+    }
+
+    60% {
+        opacity: 0;
+        /* left:50vw; */
+    }
+
+    80% {
+        opacity: 0;
+        /* left:55vw; */
+    }
+
+    100% {
+        opacity: 0;
+        /* left:60vw; */
+    }
+}
+
+@keyframes linkmove {
+    from {
+        transform: translate(0vw);
+    }
+
+    to {
+        transform: translate(100vw);
+    }
+}
+
+.action .first {
+
+    animation-delay: 0s;
+}
+
+
+.action .second {
+
+    animation-delay: 3s;
+}
+
+.action .third {
+
+    animation-delay: 6s;
+}
+
+.action .fourth {
+
+    animation-delay: 9s;
+}
+
+.action .fifth {
+    animation-delay: 12s;
+}
+
+.bestimages {
+    background-color: azure;
+    height: 170px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: solid black 3px;
+}
+
+.bestimages img {
+    width: 130px;
+}
+
+.names {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    position: relative;
+    bottom: 5vh;
+    margin-left: 5vw;
+}
+
+
+.names ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22vw;
+    margin-left: 4.2vw;
+    height: 20px;
+    width: 100%;
+}
+
+.names ul li {
+    list-style: none;
+}
+
+.bestbuy {
+    /* background-color: blanchedalmond; */
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    animation: linkmove 15s linear alternate infinite;
+    font-size: x-large;
+    position: relative;
+
+}
+
+@media screen and (max-width:480px) {
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+
+
+    .main {
+        padding-top: 10px;
+        padding-bottom: 7px;
+        padding-left: 3px;
+        background-color: rgb(0, 200, 255);
+        height: 10vh;
+        border: 2px solid black;
+    }
+
+    .logo img {
+        width: 5vw;
+        display: inline-block;
+    }
+
+    .login {
+        display: inline-block;
+        position: relative;
+        left: 28vw;
+        bottom: 12vh;
+    }
+
+    .login img {
+        width: 40px;
+        display: inline-block;
+    }
+
+    .cart {
+        display: inline-block;
+        position: relative;
+        left: 32vw;
+        bottom: 12vh;
+    }
+
+    .cart img {
+        width: 40px;
+        display: inline-block;
+    }
+
+    .log {
+        display: inline-block;
+        position: relative;
+        left: 21.2vw;
+        bottom: 8.5vh;
+        font-size: x-large;
+    }
+
+    .cartname {
+        display: inline-block;
+        position: relative;
+        left: 24.7vw;
+        bottom: 8.5vh;
+        font-size: x-large;
+    }
+
+    .search {
+        position: relative;
+        left: 19vw;
+        border: solid 2px black;
+        display: inline-block;
+        width: 57vw;
+        bottom: 5vw;
+        height: 9vh;
+    }
+
+    .search input {
+        box-sizing: border-box;
+        width: 57vw;
+        height: 9vh;
+        font-size: 30px;
+        background-image: url("https://images.icon-icons.com/2551/PNG/512/search_icon_152764.png");
+        background-repeat: no-repeat;
+        background-size: 23px;
+    }
+
+    .search input::placeholder {
+        font-size: 20px;
+        color: brown;
+    }
+
+    .maintwo {
+        margin-top: 3vh;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        background-color: aqua;
+        border: black solid 3px;
+    }
+
+    .heading ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 22vw;
+        list-style: none;
+    }
+
+    .heading ul li {
+        border-radius: 40%;
+        background-color: gray;
+    }
+
+    .offers,
+    .phone,
+    .electrical {
+        display: inline-block;
+    }
+
+    .offers img {
+        width: 100px;
+        position: relative;
+        left: 13.5vw;
+        bottom: 1vh;
+    }
+
+    .phone img {
+        width: 100px;
+        position: relative;
+        left: 34vw;
+        bottom: 1vh
+    }
+
+    .electrical img {
+        width: 100px;
+        position: relative;
+        left: 57vw;
+        bottom: 1vh
+    }
+
+    .mainthree {
+
+        background-color: rgb(231, 222, 241);
+        height: 200px;
+        width: 30vw;
+        display: flex;
+        margin-left: 33vw;
+        margin-top: 10px;
+        border: solid black 2px;
+        border-radius: 20%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .action {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .action img {
+        width: 200px;
+        opacity: 0;
+        position: absolute;
+        /* left: 33vw; */
+        animation: moving 15s linear infinite;
+
+    }
+
+    @keyframes moving {
+        0% {
+            opacity: 0;
+            /* left:33vw; */
+        }
+
+        20% {
+            opacity: 0;
+            /* left:35vw; */
+        }
+
+        30% {
+            opacity: 0;
+            /* left:37vw; */
+        }
+
+        50% {
+            opacity: 1;
+            /* left:48vw; */
+        }
+
+        60% {
+            opacity: 0;
+            /* left:50vw; */
+        }
+
+        80% {
+            opacity: 0;
+            /* left:55vw; */
+        }
+
+        100% {
+            opacity: 0;
+            /* left:60vw; */
+        }
+    }
+
+    @keyframes linkmove {
+        from {
+            transform: translate(0vw);
+        }
+
+        to {
+            transform: translate(100vw);
+        }
+    }
+
+    .action .first {
+
+        animation-delay: 0s;
+    }
+
+
+    .action .second {
+
+        animation-delay: 3s;
+    }
+
+    .action .third {
+
+        animation-delay: 6s;
+    }
+
+    .action .fourth {
+
+        animation-delay: 9s;
+    }
+
+    .action .fifth {
+        animation-delay: 12s;
+    }
+
+    .bestimages {
+        background-color: azure;
+        height: 170px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border: solid black 3px;
+    }
+
+    .bestimages img {
+        width: 130px;
+    }
+
+    .names {
+        background-color: aliceblue;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 90%;
+        position: relative;
+        bottom: 5vh;
+        margin-left: 5vw;
+    }
+
+
+    .names ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 22vw;
+        margin-left: 4.2vw;
+        height: 20px;
+        width: 100%;
+    }
+
+    .names ul li {
+        list-style: none;
+    }
+
+    .bestbuy {
+        /* background-color: blanchedalmond; */
+        display: inline-block;
+        position: relative;
+        top: 30px;
+        animation: linkmove 15s linear alternate infinite;
+        font-size: x-large;
+        position: relative;
+
+    }
+
+    @media screen and (max-width:480px) {
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+
+        .main {
+            padding-top: 2px;
+            padding-bottom: 4px;
+            padding-left: 3px;
+            background-color: rgb(0, 200, 255);
+            height: 6vh;
+            border: 2px solid black;
+        }
+
+        .logo img {
+            width: 12vw;
+            display: inline-block;
+        }
+
+        .login {
+            display: inline-block;
+            position: relative;
+            left: 19vw;
+            bottom: 5.5vh;
+        }
+
+        .login img {
+            width: 34px;
+            display: inline-block;
+        }
+
+        .cart {
+            display: inline-block;
+            position: relative;
+            left: 23.5vw;
+            bottom: 6vh;
+        }
+
+        .cart img {
+            width: 27px;
+            display: inline-block;
+        }
+
+        .log {
+            display: inline-block;
+            position: relative;
+            left: 2vw;
+            bottom: 3.5vh;
+            font-size: small;
+        }
+
+        .cartname {
+            display: inline-block;
+            position: relative;
+            left: 9vw;
+            bottom: 3.5vh;
+            font-size: small;
+        }
+
+        .search {
+            position: relative;
+            left: 19vw;
+            border: solid 2px black;
+            display: inline-block;
+            width: 52vw;
+            bottom: 13vw;
+            height: 4vh;
+        }
+
+        .search input {
+            box-sizing: border-box;
+            width: 52vw;
+            height: 4vh;
+            font-size: 30px;
+            background-image: url("https://images.icon-icons.com/2551/PNG/512/search_icon_152764.png");
+            background-repeat: no-repeat;
+            background-size: 23px;
+        }
+
+        .search input::placeholder {
+            font-size: 20px;
+            color: brown;
+        }
+
+        .maintwo {
+            margin-top: 3vh;
+            margin-left: 3vw;
+            margin-right: 3vw;
+            background-color: aqua;
+            border: black solid 3px;
+        }
+
+        .heading ul {
+            display: flex;
+            justify-content: center;
+            /*! align-items: center; */
+            gap: 18vw;
+            list-style: none;
+        }
+
+        .heading ul li {
+            border-radius: 40%;
+            background-color: gray;
+        }
+
+        .offers,
+        .phone,
+        .electrical {
+            display: inline-block;
+        }
+
+        .offers img {
+            width: 9vh;
+            position: relative;
+            left: 0vh;
+            bottom: 1vh;
+        }
+
+        .phone img {
+            width: 9vh;
+            position: relative;
+            left: 9vw;
+            bottom: 1vh
+        }
+
+        .electrical img {
+            width: 9vh;
+            position: relative;
+            left: 28vw;
+            bottom: 0vh;
+        }
+
+        .mainthree {
+
+            background-color: rgb(231, 222, 241);
+            height: 200px;
+            width: 51vw;
+            display: flex;
+            margin-left: 23vw;
+            margin-top: 10px;
+            border: solid black 2px;
+            border-radius: 20%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .action {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .action img {
+            width: 200px;
+            opacity: 0;
+            position: absolute;
+            /* left: 33vw; */
+            animation: moving 15s linear infinite;
+
+        }
+
+        @keyframes moving {
+            0% {
+                opacity: 0;
+                /* left:33vw; */
+            }
+
+            20% {
+                opacity: 0;
+                /* left:35vw; */
+            }
+
+            30% {
+                opacity: 0;
+                /* left:37vw; */
+            }
+
+            50% {
+                opacity: 1;
+                /* left:48vw; */
+            }
+
+            60% {
+                opacity: 0;
+                /* left:50vw; */
+            }
+
+            80% {
+                opacity: 0;
+                /* left:55vw; */
+            }
+
+            100% {
+                opacity: 0;
+                /* left:60vw; */
+            }
+        }
+
+        @keyframes linkmove {
+            from {
+                transform: translate(0vw);
+            }
+
+            to {
+                transform: translate(100vw);
+            }
+        }
+
+        .action .first {
+
+            animation-delay: 0s;
+        }
+
+
+        .action .second {
+
+            animation-delay: 3s;
+        }
+
+        .action .third {
+
+            animation-delay: 6s;
+        }
+
+        .action .fourth {
+
+            animation-delay: 9s;
+        }
+
+        .action .fifth {
+            animation-delay: 12s;
+        }
+
+        .bestimages {
+            background-color: azure;
+            height: 22vh;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border: solid black 3px;
+        }
+
+        .bestimages img {
+            width: 130px;
+        }
+
+        .names {
+            background-color: aliceblue;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 90%;
+            position: relative;
+            bottom: 5.5vh;
+            margin-left: 5vw;
+        }
+
+
+        .names ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 28vw;
+            margin-left: 4.2vw;
+            height: 3vh;
+            width: 100%;
+        }
+
+        .names ul li {
+            list-style: none;
+        }
+
+        .bestbuy {
+            /* background-color: blanchedalmond; */
+            display: inline-block;
+            position: relative;
+            top: 3vh;
+            animation: linkmove 15s linear alternate infinite;
+            font-size: x-large;
+            position: relative;
+
+        }
+
+    }
+}
